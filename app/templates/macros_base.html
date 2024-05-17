@@ -1,0 +1,17 @@
+{% macro content_title(title='', subtitle='', center=false) -%}
+    <div class="container{% if center %} text-center{% endif %}">
+        <h1 class="content_title">{{ title }}</h1>
+        {% if subtitle -%}
+        <h3 class="content_title"><em>{{ subtitle | safe }}</em></h3>
+        {%- endif %}
+    </div>
+{%- endmacro %}
+
+{% macro content_title2(title='', subtitle='', center=false) -%}
+    <div class="container{% if center %} text-center{% endif %}">
+        <h2 class="content_title">{{ title }}</h2>
+        {% if subtitle -%}
+        <h3 class="content_title"><em>{{ subtitle | safe }}</em></h3>
+        {%- endif %}
+    </div>
+{%- endmacro %}

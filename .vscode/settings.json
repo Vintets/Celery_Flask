@@ -1,0 +1,102 @@
+{
+    // рабочая папка проекта (глубже чем сам корень проекта)
+    "terminal.integrated.cwd": "app",
+
+
+    // --- Command Prompt
+    // "terminal.integrated.shellArgs.windows": [
+    //     ""
+    // ],
+
+    // --- Git Bash
+    // "terminal.integrated.shellArgs.windows": ["--cd=C:/Server/data/htdocs/flask_blog/app"]
+    // "terminal.integrated.shellArgs.windows": [
+    // "--cd=C:/Server/data/htdocs/flask_blog/app",
+    // "-c",
+    // "source C:/Server/venv_flask3/Scripts/activate"
+    // "python main.py"
+    // ],
+
+
+    "python.pythonPath": "C:\\Server\\venv_flask3\\Scripts\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    //"terminal.integrated.env.windows": null,
+
+    "python.venvFolders": [
+        "C:\\Server\\venv_flask3"
+    ],
+    "python.venvPath": "C:\\Server\\venv_flask3\\Scripts\\python.exe",
+    // "python.terminal.activateEnvInCurrentTerminal": true,
+
+    "window.zoomLevel": 0,
+    //"files.autoSaveDelay": 1000,
+    //"files.encoding": "utf8",
+    //"files.eol": "auto",  //  - \n: LF    \r\n: CRLF
+
+    // исключаем файлы и папки
+    "files.exclude": {
+        //".vscode/": true,
+        //"**/__pycache__/": true,
+        "env/": true,
+        "env2/": true,
+        "logs/": true,
+        "stats/": true,
+        "private/": true,
+        "**/__init__.py": false,
+        // "app/accessory/__init__.py": true,
+        "app/configs/__init__.py": true,
+        "**/static/images/": true,
+        //"**/*.ico": true,
+        "**/*.bat": true,
+        "**/*.exe": true,
+        "**/*.png": true,
+        "**/*.jpg": true,
+        "**/*.webm": true,
+        "**/*.xlsx": true,
+        "**/*.docx": true,
+        "**/*.csv": true,
+        "**/*.xml": true,
+        "**/*.mp4": true,
+        "**/*.mkv": true,
+        "**/*.wav": true,
+        "**/*.mp3": true,
+        "**/*.m4a": true,
+        "**/*.zip": true,
+        "**/*.7z": true,
+        "**/*.rar": true,
+    },
+    "search.exclude": {
+        //"**/__pycache__/": true,
+        "env/": true,
+        "env2/": true,
+        ".vscode/": true,
+        "logs/": true,
+        "**/static/images/": true,
+        "**/*.ico": true,
+        "**/*.bat": true,
+        "**/*.exe": true,
+        "**/*.png": true,
+        "**/*.jpg": true,
+        "**/*.webm": true,
+        "**/*.xlsx": true,
+        "**/*.docx": true,
+        "**/*.csv": true,
+        "**/*.xml": true,
+        "**/*.mp4": true,
+        "**/*.mkv": true,
+        "**/*.wav": true,
+        "**/*.mp3": true,
+        "**/*.m4a": true,
+        "**/*.zip": true,
+        "**/*.7z": true,
+        "**/*.rar": true,
+    },
+
+    // линтер python
+    // "python.linting.pylintEnabled": true,
+    // "python.linting.pylintPath": "C:\\Server\\venv_flask3\\Scripts\\pylint.exe",
+    // "python.linting.flake8Enabled": true,
+    // "python.linting.enabled": true,
+    "flake8.args": ["--config=.flake8"],
+    "python.analysis.ignore": ["*"],
+}

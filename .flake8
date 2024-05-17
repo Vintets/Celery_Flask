@@ -1,0 +1,33 @@
+[flake8]
+max-line-length = 100
+max-complexity = 6
+import-order-style = google
+
+# max_function_length = 25
+max_parameters_amount = 8
+# max_returns_amount = 5
+
+ignore =
+    # E123 closing bracket does not match indentation of opening bracket's
+    E123,
+    # E126 continuation line over-indented for hanging indent
+    E126,
+    # D203 blank line required before class docstrin
+    D203,
+    # E221 multiple spaces before operator
+    #E221,
+    # E501 line too long (> 79 characters)
+    E501,
+    # W504 line break after binary operator
+    W504,
+    # F541 f-string is missing placeholders
+    F541,
+    # too few type annotations
+    ; TAE001,
+    # print found
+    ; T201
+exclude = .git,.vscode,__pycache__,env,venv,logs,old,build,dist,*.db,*.bat,*.exe,*.png,*.jpg,*.webm,*.mp4,*.mkv,*.wav,*.mp3,*.m4a,*.xml,*.csv,*.xlsx,*.zip
+
+inline-quotes = '
+
+# noqa:

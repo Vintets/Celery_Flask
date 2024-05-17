@@ -1,0 +1,55 @@
+# System
+Thumbs.db
+.DS_Store
+*.bak
+*~
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Venv
+/env/
+/env2/
+/venv/
+env.bak/
+venv.bak/
+
+# Configs
+**/.env
+auth_code.ini
+/in_out/
+
+# Project dirs
+
+# Project files
+
+# Simlinks
+
+# User images and files
+/app/static/images/
+
+# User images and files
+/app/static/images/
+
+# Log files
+/app/logs/
+
+# Other files
+*_old*
+*_backup*
+Очистка_компил_py3.bat
+*.png
+*.jpg
+*.webm
+*.mp4
+*.mkv
+*.wav
+*.mp3
+*.m4a
+*.exe
+
+# Flask stuff:
+instance/
+.webassets-cache
