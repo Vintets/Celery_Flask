@@ -40,6 +40,7 @@ auth_code.ini
 *_old*
 *_backup*
 Очистка_компил_py3.bat
+Работа с Celery.lnk
 *.png
 *.jpg
 *.webm
